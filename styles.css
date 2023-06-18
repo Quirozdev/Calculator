@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9ebe4;
+    border: 6px solid #5d2b02;
+    border-radius: 16px;
+    padding: 64px 16px 24px 16px;
+    gap: 16px;
+}
+
+.display {
+    height: 60px;
+    border: 5px solid #5d2b02;
+    background-color: #c5d4d9;
+    
+}
+
+#computation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6f7277;
+    height: 100%;
+    border: 4px solid #467f89;
+    padding-right: 8px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 6px;
+}
+
+.buttons-row > button {
+    border: 6px solid #5d2b02;
+    border-radius: 8px;
+    color: #4563aa;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fadda1;
+    width: 54px;
+    height: 48px;
+    flex: 1;
+}
+
+.buttons-row > button:hover {
+    color: #fadda1;
+    background-color: #4563aa;
+}
